@@ -8,6 +8,7 @@ links = "sofa_c"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+approx = "0.3.2"
 
 [build-dependencies]
 cc = { version = "1.0", features = ["parallel"] }
